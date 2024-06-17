@@ -8,6 +8,7 @@ import Ejemplo2 from './hooks/Ejemplo2';
 import MiComponenteConContexto from './hooks/Ejemplo3';
 import Ejemplo4 from './hooks/Ejemplo4';
 import GreetingStyled from './components/pure/greetingStyled';
+import Father from './components/container/father';
 
 
 function App() {
@@ -32,7 +33,9 @@ function App() {
         </Ejemplo4> */}
         {/* <GreetingStyled name= "Martin"></GreetingStyled> */}
       {/*</header>*/}
-      <TaskListComponent></TaskListComponent>
+      {/*GESTION DE EVENTOS */}
+      <Father></Father>
+      {/* <TaskListComponent></TaskListComponent> */}
     </div>
   );
 }
