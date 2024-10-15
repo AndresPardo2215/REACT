@@ -9,6 +9,9 @@ import MiComponenteConContexto from './hooks/Ejemplo3';
 import Ejemplo4 from './hooks/Ejemplo4';
 import GreetingStyled from './components/pure/greetingStyled';
 import Father from './components/container/father';
+import OpcionalRender from './components/pure/opcionalRender';
+import LoginFormik from './components/pure/forms/loginFormik';
+import RegisterFormik from './components/pure/forms/registerFormik';
 
 
 function App() {
@@ -35,6 +38,14 @@ function App() {
       {/*</header>*/}
       {/*GESTION DE EVENTOS */}
       {/* <Father></Father> */}
+      {/* Ejemplos de renderizado condicional */}
+      {/* <OpcionalRender></OpcionalRender> */}
+
+      {/* ejemplos uso formik y yup */}
+      {/* <LoginFormik></LoginFormik> */}
+      {/*<RegisterFormik></RegisterFormik>*/}
+
+      {/* PROYECTO FINAL */}
       <TaskListComponent></TaskListComponent>
     </div>
   );
