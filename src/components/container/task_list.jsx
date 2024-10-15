@@ -41,7 +41,7 @@ const TaskListComponent = (task) => {
         const index = tasks.indexOf(task);
         const tempTasks = [...tasks];
         tempTasks[index].completed = !tempTasks[index].completed;
-        //we update teh state of the componente with the new list of tasks and it will update the iteration
+        //we update the state of the component with the new list of tasks and it will update the iteration
         // of the tasks in order to show the task updated
         setTasks(tempTasks)
     }
@@ -55,7 +55,7 @@ const TaskListComponent = (task) => {
     }
 
     function addTask(task){
-        console.log('complete this task: ', task);
+        console.log('add this task: ', task);
         const tempTasks = [...tasks];
         tempTasks.push(task);
         setTasks(tempTasks);

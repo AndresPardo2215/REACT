@@ -46,7 +46,7 @@ function App() {
       {/*<RegisterFormik></RegisterFormik>*/}
 
       {/* PROYECTO FINAL */}
-      <TaskListComponent></TaskListComponent>
+      {/* <TaskListComponent></TaskListComponent> */}
     </div>
   );
 }
